@@ -23,10 +23,14 @@ body {
     align-items: center;
   }
   .mostrarjugador {
+    display: flex;
+    justify-content: center;
     width: 100px;
     height: 100px;
     margin-left: 10px;
     background-color: blueviolet;
+    text-align: center;
+    align-items: center;
   }
   .jugadaenemiga {
 
