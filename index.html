@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Piedra-Papel-Tijera</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Piedra-Papel-Tijera</title>
 </head>
 <body>
-    <div class="jugador">
-        <h2>Jugadora escoge tu opcion</h2>
-        <select class="opcionjugador">
-          <option value="1">🖐️ Opción 1</option>
-          <option value="2">✊ Opción 2</option>
-          <option value="3">✌️ Opción 3</option>
-          
-        </select>
-        <button class="jugar">JUGAR</button>
-      </div>
-    <div class="mostrarjugador">
+  <div class="jugador">
+    <h2>Jugadora escoge tu opcion</h2>
+    <select class="opcionjugador">
+      <option value="1">🖐️ Opción 1</option>
+      <option value="2">✊ Opción 2</option>
+      <option value="3">✌️ Opción 3</option>
+    </select>
+    <button class="jugar">JUGAR</button>
+  </div>
 
+  <div class="contenedor">
+    <div class="columna">
+      <div class="mostrarjugador"></div>
+      
     </div>
-    <div class="jugadaenemiga">
+    <div class="columna">
+      <div class="jugadaenemiga">
         <h3>jugada enemiga</h3>
+      </div>
+      
     </div>
-    <div class="resultado">
-        <h3>Resultado</h3>
+  </div>
 
-    <script src="main.js"></script>
-    <p class="puntuacion1">Jugadora</p>
+  <div class="resultado">
+    <h3>Resultado</h3>
+
     <p class="puntuacion2">Enemiga</p>
+    <p class="puntuacion1">Jugadora</p>
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>

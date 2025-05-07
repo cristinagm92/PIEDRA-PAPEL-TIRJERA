@@ -4,6 +4,11 @@ const mostrarjugador = document.querySelector(".mostrarjugador");
 const ordenador = document.querySelector(".jugadaenemiga");
 const resultado = document.querySelector(".resultado");
 const btnjugar = document.querySelector(".jugar");
+const tupuntuacion = document.querySelector(".puntuacion1");
+const supuntuacion2 = document.querySelector(".puntuacion2");
+
+let playerwins = 0;
+let enemiwins = 0;
 
 btnjugar.addEventListener("click", (ev) => {
   ev.preventDefault();
